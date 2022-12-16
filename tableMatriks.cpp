@@ -3,8 +3,7 @@
 using namespace std;
 void printIntro(),  matriksTable(int rows, int cols);
 int main() {
-    printIntro(), matriksTable(5,5);
-    cout<< endl; matriksTable(3,3);
+    printIntro(), matriksTable(5,5), cout<<endl; matriksTable(3,3);
     return 0;
 }
 
